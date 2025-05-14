@@ -1,4 +1,4 @@
-# Contributing to the FINOS Hackathon
+# Contributing to the FINOS Hackathons
 
 All FINOS Hackathon projects are [Apache 2.0 licensed](LICENSE) and accept contributions via git pull requests. Each commit must include a DCO line in the git commit message:
 
