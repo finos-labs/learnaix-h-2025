@@ -5,5 +5,5 @@ Each team will be required to submit a GitHub repository with their project. The
 
 1. Repository must live within the https://github.com/finos-labs GitHub Org.
 2. Completion of `README.md` details.
-  - Project Name
-  - Team Information
+    - Project Name
+    - Team Information
