@@ -27,7 +27,7 @@ This project follows the [Developer Certificate of Origin](https://developercert
 git commit -s -m "feat: initial commit with signed-off"
 ```
 
-This adds a Signed-off-by line to your commit message.
+The `-s` flag (ask `--signoff`) adds a Signed-off-by line to your commit message.
 
 ### 🔁 Optional: Create a local alias for signed commits
 
