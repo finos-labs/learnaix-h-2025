@@ -1,15 +1,15 @@
-## 🛠️ Setting a Secondary GitHub Email for a Local Git Repository
+## 🛠️ Setting a Specific Email for a Git Repository
 
-To use a **secondary GitHub email** in a specific Git repository, you can configure it locally using the following commands:
+To specify the **email address** for your git client to use for commit in a Git repository, first make sure it has been added to your [GitHub account in Settings->Emails](https://github.com/settings/emails). Afterwards, you can configure your git client locally (i.e. for just that repository) using the following commands:
 
 ```bash
 # Navigate to your repository
 cd path/to/your/repo
 
-# Set your secondary GitHub email (local to this repo only)
+# Set the email address to use for commits (local to this repo only)
 git config --local user.email "your-secondary-email@example.com"
 
-# Sset your name for commits
+# Set your name for commits
 git config --local user.name "Your Name"
 
 # Verify the local config
