@@ -39,6 +39,10 @@ AI Integration: OpenAI APIs, LangChain, or Python-based microservices
 | ----------- | --------------- | ------------- | -------------------------- |
 | [Your Name] | Team Lead / Dev | [@yourhandle] | Full-stack, Moodle plugins |
 
+### Setting up local repository
+
+See [DEVELOPER_SETUP_LOCAL.md](./.github/DEVELOPER_SETUP_LOCAL.md) for more information
+
 ## Using DCO to sign your commits
 
 **All commits** must be signed with a DCO signature to avoid being flagged by the DCO Bot. This means that your commit log message must contain a line that looks like the following one, with your actual name and email address:
