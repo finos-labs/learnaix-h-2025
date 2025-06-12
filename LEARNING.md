@@ -15,3 +15,5 @@ Welcome to the hackathon ! This guide will recommend you the most relevant learn
 - [MDN - Pph Glossary](https://developer.mozilla.org/en-US/docs/Glossary/PHP)
 
 ## Snowflake
+
+-[Moodle deployment on snowflake](https://drive.google.com/drive/folders/1Iyr9_dmznDwIn44FY1ZoUHmruDfu7UQ7?usp=sharing) Folder => Moodle & Maria DB deployment in SF
