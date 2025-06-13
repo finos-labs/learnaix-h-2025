@@ -12,6 +12,6 @@ Welcome to the hackathon ! This guide will recommend you the most relevant learn
 
 ## Php
 
-- [MDN - Pph Glossary](https://developer.mozilla.org/en-US/docs/Glossary/PHP)
+- [MDN - Php Glossary](https://developer.mozilla.org/en-US/docs/Glossary/PHP)
 
 ## Snowflake
