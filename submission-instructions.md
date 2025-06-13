@@ -7,7 +7,7 @@ Each team will be required to submit a GitHub repository with their project. The
 1. Repository must live within the https://github.com/finos-labs GitHub Org.
 2. Completion of below information
 
-# 📬 LearnAIx Hackathon Project Submission Instructions
+# 📬 NatWest Hack4ACause hackathon Project Submission Instructions
 
 Please complete this file and include it in your repository (`README.md`) when submitting your hackathon project.
 

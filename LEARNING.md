@@ -1,4 +1,4 @@
-# 🚀 Learning Guide for LearnAIx hackathon
+# 🚀 Learning Guide for NatWest Hack4ACause
 
 Welcome to the hackathon ! This guide will recommend you the most relevant learning materials that will help during the hackathon.
 

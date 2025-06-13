@@ -1,10 +1,8 @@
 ![badge-labs](https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg)
 
-# LearnAIx Hackathon Template
+# NatWest Hack4ACause contribution template
 
-## LearnAIx
-
-Join us in a transformative AI hackathon focused on driving social impact in education and employability. Through this initiative, we will co-create innovative use cases that will power LearnAIx — an AI-assisted, open-source learning system.
+Join us in a transformative AI hackathon focused on driving social impact in education and employability. Through this initiative, we will co-create innovative use cases that will power LearnAIx — an AI-assisted, open-source learning content management system.
 
 With LearnAIx, our goal is to develop a scalable and accessible platform that can be leveraged by non-profits and other technology academies to enhance learning experiences and open doors to opportunity.
 

@@ -1,6 +1,6 @@
-# Contributing to the LearnAIx Hackathon
+# Contributing to the NatWest Hack4ACause
 
-The LearnAIx Hackathon projects and associated repositiories under FINOS and FINOS Labs are [Apache 2.0 licensed](LICENSE) and accept contributions via git pull requests. Each commit must include a DCO line in the git commit message:
+The NatWest Hack4ACause projects and associated repositiories under FINOS and FINOS Labs are [Apache 2.0 licensed](LICENSE) and accept contributions via git pull requests. Each commit must include a DCO line in the git commit message:
 
 `Signed-off-by: GitHub User Name <your.email@example.com>`
 
@@ -13,7 +13,7 @@ To make review of PRs easier, please:
 
 - Please make sure your PRs will merge cleanly - PRs that don't are unlikely to be accepted.
 - For code contributions, follow the existing code layout.
-- For documentation contributions, follow the general structure, language, and tone of the [LearnAIx hackathon 2025](https://github.com/finos-labs/learnaix-h-2025).
+- For documentation contributions, follow the general structure, language, and tone of the [NatWest Hack4ACause 2025](https://github.com/finos-labs/learnaix-h-2025).
 - Keep commits small and cohesive - if you have multiple contributions, please submit them as independent commits (and ideally as independent PRs too).
 - Reference issues if your PR has anything to do with an issue (even if it doesn't address it).
 - Minimise non-functional changes (e.g. whitespace).
