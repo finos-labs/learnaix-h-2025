@@ -1,10 +1,8 @@
 ![badge-labs](https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg)
 
-# LearnAIx Hackathon Template
+# NatWest Hack4ACause contribution template
 
-## LearnAIx
-
-Join us in a transformative AI hackathon focused on driving social impact in education and employability. Through this initiative, we will co-create innovative use cases that will power LearnAIx — an AI-assisted, open-source learning system.
+Join us in a transformative AI hackathon focused on driving social impact in education and employability. Through this initiative, we will co-create innovative use cases that will power LearnAIx — an AI-assisted, open-source learning content management system.
 
 With LearnAIx, our goal is to develop a scalable and accessible platform that can be leveraged by non-profits and other technology academies to enhance learning experiences and open doors to opportunity.
 
@@ -33,15 +31,13 @@ Hosting: Snowflake hosting
 Plugins: Custom Moodle plugins using PHP, JavaScript, and REST APIs
 AI Integration: OpenAI APIs, LangChain, or Python-based microservices
 
-### Team Information
+### 📬 Submission Guidelines
 
-| Name        | Role            | GitHub        | Skills / Focus Area        |
-| ----------- | --------------- | ------------- | -------------------------- |
-| [Your Name] | Team Lead / Dev | [@yourhandle] | Full-stack, Moodle plugins |
+Please read the [submission-instructions](./submission-instructions.md) before submitting your project.
 
 ### Setting up local repository
 
-See [DEVELOPER_SETUP_LOCAL.md](./.github/DEVELOPER_SETUP_LOCAL.md) for more information
+See [GETTING_STARTED.md](./GETTING_STARTED.md) for more information
 
 ## Using DCO to sign your commits
 
