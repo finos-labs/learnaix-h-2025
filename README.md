@@ -35,11 +35,11 @@ AI Integration: OpenAI APIs, LangChain, or Python-based microservices
 
 ### 📬 Submission Guidelines
 
-Please read the [submission-instructions](./.github/submission-instructions.md) before submitting your project.
+Please read the [submission-instructions](./submission-instructions.md) before submitting your project.
 
 ### Setting up local repository
 
-See [GETTING_STARTED.md](./.github/GETTING_STARTED.md) for more information
+See [GETTING_STARTED.md](./GETTING_STARTED.md) for more information
 
 ## Using DCO to sign your commits
 
