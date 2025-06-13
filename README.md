@@ -33,15 +33,13 @@ Hosting: Snowflake hosting
 Plugins: Custom Moodle plugins using PHP, JavaScript, and REST APIs
 AI Integration: OpenAI APIs, LangChain, or Python-based microservices
 
-### Team Information
+### 📬 Submission Guidelines
 
-| Name        | Role            | GitHub        | Skills / Focus Area        |
-| ----------- | --------------- | ------------- | -------------------------- |
-| [Your Name] | Team Lead / Dev | [@yourhandle] | Full-stack, Moodle plugins |
+Please read the [submission-instructions](./.github/submission-instructions.md) before submitting your project.
 
 ### Setting up local repository
 
-See [DEVELOPER_SETUP_LOCAL.md](./.github/DEVELOPER_SETUP_LOCAL.md) for more information
+See [GETTING_STARTED.md](./.github/GETTING_STARTED.md) for more information
 
 ## Using DCO to sign your commits
 
