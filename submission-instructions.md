@@ -2,16 +2,21 @@
 
 ## Repository Submission Requirements
 
-Each team will be required to submit a GitHub repository with their project. The GitHub repos **must** meet the following criteria:
-
-1. Repository must live within the https://github.com/finos-labs GitHub Org.
-2. Completion of below information
+Each team will be required to submit a GitHub repository with their project. The repository **must** live within the [https://github.com/finos-labs](https://github.com/finos-labs) GitHub Org, and must include the information listed below.
 
 # 📬 NatWest Hack4ACause hackathon Project Submission Instructions
 
 Please complete this file and include it in your repository (`README.md`) when submitting your hackathon project.
 
 ---
+
+## 📄 Summary of Your Solution (under 150 words)
+
+Briefly describe:
+
+- What problem does your solution solve?
+- How does it work?
+- What technologies did you use?
 
 ## 👥 Team Information
 
@@ -41,11 +46,3 @@ If your solution is deployed, share the live link here.
 - 🌍 **Deployed URL**: [https://your-project-url.com]
 
 ---
-
-## 📄 Summary of Your Solution (under 150 words)
-
-Briefly describe:
-
-- What problem does your solution solve?
-- How does it work?
-- What technologies did you use?
