@@ -1,10 +1,8 @@
-# Project Submission Instructions
+# 📬 NatWest Hack4ACause hackathon Project Submission Instructions
 
 ## Repository Submission Requirements
 
 Each team will be required to submit a GitHub repository with their project. The repository **must** live within the [https://github.com/finos-labs](https://github.com/finos-labs) GitHub Org, and must include the information listed below.
-
-# 📬 NatWest Hack4ACause hackathon Project Submission Instructions
 
 Please complete this file and include it in your repository (`README.md`) when submitting your hackathon project.
 
@@ -46,3 +44,11 @@ If your solution is deployed, share the live link here.
 - 🌍 **Deployed URL**: [https://your-project-url.com]
 
 ---
+
+## License
+
+Copyright 2025 FINOS
+
+Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
