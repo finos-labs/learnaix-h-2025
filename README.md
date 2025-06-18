@@ -10,7 +10,7 @@ Please refer to the [HACK4CAUSE-TEMPLATE_README.md](./HACK4CAUSE-TEMPLATE_README
 
 &nbsp;
 
-[Register to Hack4ACause](https://challenges.hackworks.com)
+[Register for NatWest Hack4ACause](https://challenges.hackworks.com)
 
 &nbsp;
 
