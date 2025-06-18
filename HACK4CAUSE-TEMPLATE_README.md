@@ -2,7 +2,10 @@
 
 ## Repository Submission Requirements
 
-Each team will be required to submit a GitHub repository with their project. The repository **must** live within the [https://github.com/finos-labs](https://github.com/finos-labs) GitHub Org, and must include the information listed below.
+Each team will be required to submit a GitHub repository with their project. The repository **will** live within the [https://github.com/finos-labs](https://github.com/finos-labs) GitHub Org, and must include the information listed below.
+
+For example, if your team’s name is `strongestavenger`, your repository will be available:
+**[`learnaix-h-2025-strongestavenger`](https://github.com/finos-labs/learnaix-h-2025-strongestavenger)**
 
 Please complete this file and include it in your repository (`README.md`) when submitting your hackathon project.
 
