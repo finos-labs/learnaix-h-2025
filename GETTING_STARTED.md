@@ -1,4 +1,4 @@
-## 🛠️ Setting a Specific Email for a Git Repository
+# 🛠️ Setting a Specific Email for a Git Repository
 
 To specify the **email address** for your git client to use for commit in a Git repository, first make sure it has been added to your [GitHub account in Settings->Emails](https://github.com/settings/emails). Afterwards, you can configure your git client locally (i.e. for just that repository) using the following commands:
 
@@ -16,6 +16,8 @@ git config --local user.name "Your Name"
 git config user.email
 git config user.name
 ```
+
+&nbsp;
 
 ## ✅ Enable DCO Sign-Off for Commits (Local Only)
 
@@ -42,3 +44,11 @@ Then you can use:
 ```bash
 git ci -m "feat: add new feature"
 ```
+
+&nbsp;
+
+## Helpful DCO Resources
+
+- [Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
+- [Signing commits
+  ](https://docs.github.com/en/github/authenticating-to-github/signing-commits)
