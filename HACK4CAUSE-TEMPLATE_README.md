@@ -1,4 +1,4 @@
-# 📬 NatWest Hack4ACause hackathon Project Submission Instructions
+# 📬 NatWest Hack4aCause hackathon Project Submission Instructions
 
 ## Repository Submission Requirements
 

@@ -1,4 +1,4 @@
-# NatWest Hack4ACause Hackathon
+# NatWest Hack4aCause Hackathon
 
 ![badge-labs](https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg)
 
@@ -10,44 +10,40 @@ Please refer to the [HACK4CAUSE-TEMPLATE_README.md](./HACK4CAUSE-TEMPLATE_README
 
 &nbsp;
 
-[Register for NatWest Hack4ACause](https://challenges.hackworks.com)
+Join us in a transformative AI hackathon focused on driving social impact in education and
+employability. Let’s work together to add the next game changer feature on to Snowflake
+LearnAIx platform, the AI-assisted, open-source learning system that you all will be helping
+build via this hackathon.
 
-&nbsp;
+## Purpose:
 
-Join us in a transformative AI hackathon focused on driving social impact in education and employability. Through this initiative, we will co-create innovative use cases that will power LearnAIx — an AI-assisted, open-source learning system.
+With LearnAIx, our goal is to develop a scalable and accessible platform that can be
+leveraged by non-profits and academies alike to enhance learning experiences and open
+doors of opportunities to all learners.
 
-With LearnAIx, our goal is to develop a scalable and accessible platform that can be leveraged by non-profits and other technology academies to enhance learning experiences and open doors to opportunity.
+Through your involvement in this hackathon, you will get the opportunity to socialise and
+network with like-minded enthusiasts who believe in open-source enablers for community
+benefit. You will use AI to improve learning solutions in the education sector.
 
-#### Purpose:
+## Objective:
 
-To empower learners and educators by embedding AI into Moodle-based learning journeys — offering personalized guidance, automated assessments, and contextual support. The platform is intended for use by non-profits and technology academies to upskill individuals in digital and career-ready competencies.
-
-#### Objective:
-
-To create practical, AI-enabled use cases that can be developed into Moodle plugins or integrations. These prototypes will lay the foundation for LearnAIx, turning Moodle into a smarter, more supportive learning ecosystem.
-
-### Use cases
-
-- LMS as a Service
-- Feedback as a Service
-- Student Engagement as a Service
-- CMS as a Service
-- Assessment Review as a Service
-- LLM as a Service
-- Proctored System as a Service
-- Design the UX of the learning system
+To create AI enabled Moodle plugins on existing LearnAIx alpha solution on Snowflake public
+platform. Shortlisted plugins will feature in the LearnAIx beta version that will be available for
+free for to consume.
 
 ### Integrations & Tech stack
 
-Hosting: Snowflake hosting
 Plugins: Custom Moodle plugins using PHP, JavaScript, and REST APIs
 AI Integration: OpenAI APIs, LangChain, or Python-based microservices
+Hosting: Snowflake
+
+<span style="font-size: 24px;">[Register for NatWest Hack4aCause 2025](https://challenges.hackworks.com/event/hack-4a-cause)</span>
 
 &nbsp;
 
 ## License
 
-Copyright 2025 FINOS
+&copy; Copyright 2025 FINOS
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
