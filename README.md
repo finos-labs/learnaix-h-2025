@@ -4,7 +4,7 @@
 
 This repository was forked from [finos-labs/learnaix-h-2025](https://github.com/finos-labs/learnaix-h-2025).
 
-Please refer to the [HACK4CAUSE-TEMPLATE_README.md](./HACK4CAUSE-TEMPLATE_README.md) for complete submission instructions and project documentation requirements.
+Please refer to the [HACK4ACAUSE-TEMPLATE_README.md](./HACK4ACAUSE-TEMPLATE_README.md) for complete submission instructions and project documentation requirements.
 
 ---
 
