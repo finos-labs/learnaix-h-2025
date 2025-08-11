@@ -37,8 +37,6 @@ Plugins: Custom Moodle plugins using PHP, JavaScript, and REST APIs
 AI Integration: OpenAI APIs, LangChain, or Python-based microservices
 Hosting: Snowflake
 
-[Register for NatWest Hack4aCause 2025](https://challenges.hackworks.com/event/hack-4a-cause)
-
 ## License
 
 &copy; Copyright 2025 FINOS
