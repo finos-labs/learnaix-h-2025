@@ -1,4 +1,4 @@
-# 🚀 Learning Guide for NatWest Hack4ACause
+# 🚀 Learning Guide for NatWest Hack4aCause
 
 Welcome to the hackathon ! This guide will recommend you the most relevant learning materials that will help during the hackathon.
 
