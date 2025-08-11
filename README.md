@@ -28,8 +28,7 @@ benefit. You will use AI to improve learning solutions in the education sector.
 ## Objective:
 
 To create AI enabled Moodle plugins on existing LearnAIx alpha solution on Snowflake public
-platform. Shortlisted plugins will feature in the LearnAIx beta version that will be available for
-free for to consume.
+platform. Shortlisted plugins will feature in the LearnAIx beta version that will be available to consume for free.
 
 ### Integrations & Tech stack
 
