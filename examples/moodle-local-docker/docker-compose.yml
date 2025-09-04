@@ -1,0 +1,46 @@
+services:
+  db:
+    image: mysql:8.4 
+    container_name: moodle-db
+    restart: unless-stopped
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --skip-name-resolve
+      --disable-log-bin
+    environment:
+      MYSQL_ROOT_PASSWORD: moodle
+      MYSQL_DATABASE: moodle
+      MYSQL_USER: moodle
+      MYSQL_PASSWORD: moodle
+    volumes:
+      - db_data:/var/lib/mysql
+    # No host port mapping: avoids conflicts with any local MySQL on 3306
+    # ports:
+    #   - "3306:3306"
+    healthcheck:
+      # Force TCP; give MySQL plenty of time on first init
+      test: ["CMD-SHELL", "mysqladmin ping -h127.0.0.1 -uroot -p$${MYSQL_ROOT_PASSWORD} --silent"]
+      start_period: 240s
+      interval: 5s
+      timeout: 5s
+      retries: 120
+
+  moodle:
+    build: .
+    container_name: moodle-app
+    restart: unless-stopped
+    # Let your startup.sh wait for the DB port; don't block on healthcheck
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      DB_HOST: db
+      DB_PORT: "3306"
+    ports:
+      - "8080:80"
+    volumes:
+      - ./moodledata:/var/www/moodledata
+
+volumes:
+  db_data:

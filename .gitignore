@@ -5,6 +5,9 @@
 #   Alternatively, see the collection of .gitignore templates
 #       https://github.com/github/gitignore
 
+moodledata/*
+!moodledata/.gitkeep
+
 # macOS-specific
 .DS_Store
 
