@@ -118,9 +118,9 @@ error_on_column_count_mismatch=false
 )
 
 ON_ERROR=CONTINUE
-
+```
 ![Screenshot](./instruction_images//image5.png)
-
+```
 FORCE = TRUE ;
 
 COPY INTO moodle_app.public.PRODUCT_DIM
@@ -156,9 +156,9 @@ error_on_column_count_mismatch=false
 )
 
 ON_ERROR=CONTINUE
-
+```
 ![Screenshot](./instruction_images/image6.png)
-
+```
 FORCE = TRUE ;
 
 COPY INTO moodle_app.public.REGION_DIM
@@ -194,9 +194,9 @@ error_on_column_count_mismatch=false
 )
 
 ON_ERROR=CONTINUE
-
+```
 ![Screenshot](./instruction_images/image7.png)
-
+```
 FORCE = TRUE ;
 ```
 
