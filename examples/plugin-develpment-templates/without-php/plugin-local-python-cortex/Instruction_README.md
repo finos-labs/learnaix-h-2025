@@ -1,22 +1,24 @@
+# 🚀 Plugin Local Python Cortex
+
 To have functionality to execute python code, we have added a new container which will be a flask app with storage mounted to it. If someone wants to execute python they will upload their .py files to the stage that is mounted to the container running flask, and this can be done using the Snowflake Snowsite. The moodle php plug-in will be able to send a request to the flask application containing the name of the .py to execute and any arguments if required. The flask app will receive it and download the .py file and use the exec command and run the code. The output will be returned to the php plugin and can be formatted on the php side to display to the user.
 
-![Screenshot](/instruction_images/image1.png)
+![Screenshot](./instruction_images/image1.png)
 
 If you have had an instance of moodle running before in your Snowflake environment, go to Snowsite UI and run the following commands in a worksheet. If not, skip this step.
 
-USE ROLE MOODLE_ROLE;
+```
+USE ROLE MOODLE_ROLE;
 
 DROP Service MOODLE_APP.PUBLIC.MOODLE_SERVICE;
 
 DROP compute pool moodle_compute_pool;
 
 DROP IMAGE REPOSITORy MOODLE_APP.PUBLIC.IMG;
-
-
+```
 
 ## Download and unzip moodle.zip and open a terminal and navigate to the directory with the files.
 
-![Screenshot](/instruction_images/image2.png)
+![Screenshot](./instruction_images/image2.png)
 
 Follow the walk_through.txt located in cortex.zip. If you have previously had a moodle instance running, start from step 4 in walk_through.txt (the make all step)
 
@@ -26,16 +28,15 @@ Ensure that you have the “moodle_role” role selected
 
 ## Navigate to the Snowflake snowsight and on the left navigation bar hover over the “Data” tab (has a database icon) and click on “add data”
 
-![Screenshot](/instruction_images/image3.png)
+![Screenshot](./instruction_images/image3.png)
 
 Click on “Load files into a stage” and fill in the fields as below and upload (NOTE: Ensure that you specify the path to a folder correctly)
 
-![Screenshot](/instruction_images/image4.png)
+![Screenshot](./instruction_images/image4.png)
 
 Run the following commands in Snowflake Snowsight
 
-
-
+```
 USE ROLE SECURITYADMIN;
 
 GRANT DATABASE ROLE SNOWFLAKE.CORTEX_USER TO ROLE moodle_role;
@@ -118,7 +119,7 @@ error_on_column_count_mismatch=false
 
 ON_ERROR=CONTINUE
 
-![Screenshot](/instruction_images/image5.png)
+![Screenshot](./instruction_images//image5.png)
 
 FORCE = TRUE ;
 
@@ -156,7 +157,7 @@ error_on_column_count_mismatch=false
 
 ON_ERROR=CONTINUE
 
-![Screenshot](/instruction_images/image6.png)
+![Screenshot](./instruction_images/image6.png)
 
 FORCE = TRUE ;
 
@@ -194,19 +195,18 @@ error_on_column_count_mismatch=false
 
 ON_ERROR=CONTINUE
 
-![Screenshot](/instruction_images/image7.png)
+![Screenshot](./instruction_images/image7.png)
 
 FORCE = TRUE ;
-
-
+```
 
 ## Download cortex.zip and navigate to the “Site Administration” tab on the top left on your moodle instance.
 
-![Screenshot](/instruction_images/image8.png)
+![Screenshot](./instruction_images/image8.png)
 
 ## Navigate to “Plugins”
 
-![Screenshot](/instruction_images/image9.png)
+![Screenshot](./instruction_images/image9.png)
 
 Go to “Install Plugins” and upload your zip file.
 
