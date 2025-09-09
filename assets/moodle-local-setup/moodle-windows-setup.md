@@ -131,6 +131,7 @@ All below sub folder resides in C:\xampp\htdocs\moodle
 | **Themes**          | `/theme/`  | Customize site appearance |
 | **Local plugins**   | `/local/`  | Custom functionality not tied to activities |
 
+[more on moodle plugins](https://moodledev.io/docs/4.1/apis/plugintypes)
 ---
 
 ## 9. Important Links
