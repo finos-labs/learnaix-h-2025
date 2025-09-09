@@ -62,18 +62,11 @@ Your local setup simulates a live web server on your computer. It consists of:
 ### Step 3: Create Moodle Database & User in pgAdmin
 1. Open **pgAdmin 4** (from Start Menu).  
 2. Connect to local server with the **postgres** password.  
-3. **Create Login Role (User):**  
-   - Right-click **Login/Group Roles → Create → Login/Group Role…**  
-   - Name: `moodleuser`  
-   - Definition → Set password.  
-   - Privileges → Enable **Can log in?**  
-   - Save.  
-4. **Create Database:**  
-   - Right-click **Databases → Create → Database…**  
-   - Name: `moodle`  
-   - Owner: `moodleuser`  
-   - Encoding: `UTF8` (required for Moodle multilingual support)  
-   - Save.  
+7. **Using Query Tool in PgAdmin**
+   ```sql
+   CREATE USER moodleuser WITH PASSWORD 'your_strong_password';
+   CREATE DATABASE moodle WITH OWNER moodleuser ENCODING 'UTF8';
+   ```
 
 ✅ Now you have a database `moodle` owned by `moodleuser`.  
 
@@ -129,6 +122,7 @@ Click **Next** → Moodle will connect and continue installation. 🎉
 ---
 
 ## 8. Types of Moodle Plugins
+All below sub folder resides in C:\xampp\htdocs\moodle
 
 | Plugin Type       | Path Example  | Description |
 |-------------------|--------------|-------------|

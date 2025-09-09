@@ -19,11 +19,7 @@ Your local setup simulates a live web server on your computer. It consists of:
 
 1. Download **MAMP for macOS** from [MAMP official site](https://www.mamp.info/en/).  
 2. Install and launch **MAMP**.  
-3. Start **Apache** from the MAMP control panel. (MySQL is included but not required if using PostgreSQL).  
-4. Copy your Moodle codebase into:  
-   ```
-   /Applications/MAMP/htdocs/moodle
-   ```
+3. Start **Apache** from the MAMP control panel. (MySQL is included but not required if using PostgreSQL).
 
 ### Enable PHP Extensions (if needed)
 
@@ -53,10 +49,14 @@ Your local setup simulates a live web server on your computer. It consists of:
    - ✅ Command Line Tools  
    - ❌ Stack Builder (optional)  
 4. Set a strong password for the `postgres` user.  
-5. After installation, open **pgAdmin 4** from Applications.  
-6. Follow the same steps from the Windows guide to create:  
-   - User: `moodleuser`  
-   - Database: `moodle` (UTF8, owner = `moodleuser`)  
+5. After installation, open **pgAdmin 4** from Applications.
+6. Connect to local server with the **postgres** password.  
+7. **Using Query Tool in PgAdmin**
+   ```sql
+   CREATE USER moodleuser WITH PASSWORD 'your_strong_password';
+   CREATE DATABASE moodle WITH OWNER moodleuser ENCODING 'UTF8';
+   ```
+
 
 ### Option 2: Using Homebrew (Developer-Focused)
 1. Install Homebrew (if not already installed):  
@@ -93,16 +93,12 @@ Your local setup simulates a live web server on your computer. It consists of:
 - PostgreSQL (via EDB or Homebrew, see above)  
 
 ### Steps:
-1. Install & start **MAMP**.  
+1. Start **MAMP**.  
 2. Download Moodle → Extract and copy the `moodle` folder into:  
    ```
    /Applications/MAMP/htdocs/moodle
    ```
-3. Create Database (Postgres):  
-   ```sql
-   CREATE USER moodleuser WITH PASSWORD 'your_strong_password';
-   CREATE DATABASE moodle WITH OWNER moodleuser ENCODING 'UTF8';
-   ```
+
 4. Run Moodle Installer:  
    - Visit → <http://localhost:8888/moodle>  
    - Select **PostgreSQL** as database  
@@ -150,6 +146,7 @@ Your local setup simulates a live web server on your computer. It consists of:
 ---
 
 ## 8. Types of Moodle Plugins
+All below sub folder resides in /Applications/MAMP/htdocs/moodle
 
 | Plugin Type       | Path Example  | Description |
 |-------------------|--------------|-------------|
@@ -159,5 +156,11 @@ Your local setup simulates a live web server on your computer. It consists of:
 | **Local plugins**   | `/local/`  | Custom functionality not tied to activities |
 
 ---
+
+## 9. Important Links
+- **[Moodle Plugins](https://moodle.org/plugins/)**
+- **[Moodle Developer Docs](https://moodle.org/dev/)**
+- **[Moodle Dev Environment](https://moodledev.io/)**
+- **[Moodle Developer Forum](https://moodle.org/mod/forum/view.php?id=50)**
 
 ✨ You now have a complete macOS development setup with Moodle + PostgreSQL.  
