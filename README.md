@@ -36,6 +36,32 @@ Plugins: Custom Moodle plugins using PHP, JavaScript, and REST APIs
 AI Integration: OpenAI APIs, LangChain, or Python-based microservices
 Hosting: Snowflake
 
+## How to get started with Plugin Development
+- Clone the repo
+- Navigate to ```assets``` folder
+- ### Step 1: Choose your runtime
+#### You can choose to run it in one of two ways:  
+##### Option 1: Run Plugin on Snowflake
+- No need to install Moddodle
+- you can run the plugin directly inside your Snowflake environment.  
+- *Note:* If you only want to use Snowflake, you can *skip the local setup steps* below.
+
+##### Option 2: Run Plugin Locally with Moodle
+- Install Moodle on your local machine.  
+- Follow the setup guide for your OS:  
+  - [Windows Guide](./assets/moodle-local-setup/moodle-windows-setup.md)  
+  - [macOS/iOS Guide](./assets/moodle-local-setup/moodle-macos-setup.md)   
+- Complete the setup steps as per the guide.
+
+- ### Step 2: Create Your Plugin
+Once you’ve decided where to run the plugin (Snowflake or Moodle), the next step is to *create your plugin*.  
+
+We have provided *different plugin templates* inside the repository:  
+- *With PHP support* → See the [with php](./assets/plugin-develpment-templates/with-php/)  
+- *Without PHP support* → See the [without php](./assets/plugin-develpment-templates/without-php/)  
+
+Explore these folders and pick the template that best fits your needs.  
+
 ## License
 
 &copy; Copyright 2025 FINOS
