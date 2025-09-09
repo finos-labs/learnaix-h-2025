@@ -4,7 +4,7 @@ A fundamental example of a Moodle local plugin, created for the Moodle Plugin De
 
 ---
 
-### ## 🎯 Objective
+##### 🎯 Objective
 
 This "Hello World" plugin serves as a foundational starting point for hackathon participants. Its primary goal is to demonstrate the essential file structure and basic components required to create an installable Moodle local plugin. By examining and installing this plugin, you'll understand how to:
 
@@ -15,7 +15,7 @@ This "Hello World" plugin serves as a foundational starting point for hackathon 
 
 ---
 
-### ## 📂 File Structure Explained
+##### 📂 File Structure Explained
 
 The plugin is contained within the `helloworld` directory. Here’s a breakdown of the essential files and their purpose:
 
@@ -27,7 +27,7 @@ The plugin is contained within the `helloworld` directory. Here’s a breakdown 
 
 ---
 
-### ## ⚙️ Installation and Deployment
+##### ⚙️ Installation and Deployment
 
 Follow these steps to install the plugin in your Moodle environment.
 
@@ -74,7 +74,7 @@ Once the files are in the correct location, Moodle needs to recognize and instal
 
 ---
 
-### ## ✅ Testing the Plugin
+##### ✅ Testing the Plugin
 
 After a successful installation, you can access the plugin's page to verify it's working.
 
