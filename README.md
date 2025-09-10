@@ -37,30 +37,36 @@ AI Integration: OpenAI APIs, LangChain, or Python-based microservices
 Hosting: Snowflake
 
 ## How to get started with Plugin Development
+
 - Clone the repo
-- Navigate to ```assets``` folder
+- Navigate to `assets` folder
 - ### Step 1: Choose your runtime
-#### You can choose to run it in one of two ways:  
+
+#### You can choose to run it in one of two ways:
+
 ##### Option 1: Run Plugin on Snowflake
+
 - No need to install Moddodle
-- you can run the plugin directly inside your Snowflake environment.  
-- *Note:* If you only want to use Snowflake, you can *skip the local setup steps* below.
+- you can run the plugin directly inside your Snowflake environment.
+- _Note:_ If you only want to use Snowflake, you can _skip the local setup steps_ below.
 
 ##### Option 2: Run Plugin Locally with Moodle
-- Install Moodle on your local machine.  
-- Follow the setup guide for your OS:  
-  - [Windows Guide](./example/moodle-local-setup/moodle-windows-setup.md)  
-  - [macOS/iOS Guide](./example/moodle-local-setup/moodle-macos-setup.md)   
+
+- Install Moodle on your local machine.
+- Follow the setup guide for your OS:
+  - [Windows Guide](./example/moodle-local-setup/moodle-windows-setup.md)
+  - [macOS/iOS Guide](./example/moodle-local-setup/moodle-macos-setup.md)
 - Complete the setup steps as per the guide.
 
 - ### Step 2: Create Your Plugin
-Once you’ve decided where to run the plugin (Snowflake or Moodle), the next step is to *create your plugin*.  
+  Once you’ve decided where to run the plugin (Snowflake or Moodle), the next step is to _create your plugin_.
 
-We have provided *different plugin templates* inside the repository:  
-- *With PHP support* → See the [with php](./example/plugin-develpment-templates/with-php/)  
-- *Without PHP support* → See the [without php](./example//plugin-develpment-templates/without-php/)  
+We have provided _different plugin templates_ inside the repository:
 
-Explore these folders and pick the template that best fits your needs.  
+- _With PHP support_ → See the [with php](./example/plugin-development-templates/with-php/)
+- _Without PHP support_ → See the [without php](./example/plugin-development-templates/without-php/)
+
+Explore these folders and pick the template that best fits your needs.
 
 ## License
 
