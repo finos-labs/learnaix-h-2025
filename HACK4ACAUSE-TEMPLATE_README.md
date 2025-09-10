@@ -7,7 +7,7 @@ Each team will be required to submit a GitHub repository with their project. The
 For example, if your team’s name is `strongestavenger`, your repository will be available:
 **[`learnaix-h-2025-strongestavenger`](https://github.com/finos-labs/learnaix-h-2025-strongestavenger)**
 
-Please complete this file and include it in your repository (`README.md`) along with [`HACK4ACAUSE-TEMPLATE_USECASE.docx`](./HACK4ACAUSE-TEMPLATE_USECASE.docx) when submitting your hackathon project.
+Please complete this file and include it in the `main` branch of your repository (`README.md`) along with [`HACK4ACAUSE-TEMPLATE_USECASE.docx`](./HACK4ACAUSE-TEMPLATE_USECASE.docx) when submitting your hackathon project.
 
 ---
 
