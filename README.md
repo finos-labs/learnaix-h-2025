@@ -49,16 +49,16 @@ Hosting: Snowflake
 ##### Option 2: Run Plugin Locally with Moodle
 - Install Moodle on your local machine.  
 - Follow the setup guide for your OS:  
-  - [Windows Guide](./assets/moodle-local-setup/moodle-windows-setup.md)  
-  - [macOS/iOS Guide](./assets/moodle-local-setup/moodle-macos-setup.md)   
+  - [Windows Guide](./example/moodle-local-setup/moodle-windows-setup.md)  
+  - [macOS/iOS Guide](./example/moodle-local-setup/moodle-macos-setup.md)   
 - Complete the setup steps as per the guide.
 
 - ### Step 2: Create Your Plugin
 Once you’ve decided where to run the plugin (Snowflake or Moodle), the next step is to *create your plugin*.  
 
 We have provided *different plugin templates* inside the repository:  
-- *With PHP support* → See the [with php](./assets/plugin-develpment-templates/with-php/)  
-- *Without PHP support* → See the [without php](./assets/plugin-develpment-templates/without-php/)  
+- *With PHP support* → See the [with php](./example/plugin-develpment-templates/with-php/)  
+- *Without PHP support* → See the [without php](./example//plugin-develpment-templates/without-php/)  
 
 Explore these folders and pick the template that best fits your needs.  
 
