@@ -54,8 +54,8 @@ Hosting: Snowflake
 
 - Install Moodle on your local machine.
 - Follow the setup guide for your OS:
-  - [Windows Guide](./example/moodle-local-setup/moodle-windows-setup.md)
-  - [macOS/iOS Guide](./example/moodle-local-setup/moodle-macos-setup.md)
+  - [Windows Guide](./example/moodle-local-setup/setup-Windows.md)
+  - [macOS/iOS Guide](./example/moodle-local-setup/setup-MacOS.md)
 - Complete the setup steps as per the guide.
 
 - ### Step 2: Create Your Plugin
