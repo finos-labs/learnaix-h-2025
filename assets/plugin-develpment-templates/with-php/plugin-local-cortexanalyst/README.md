@@ -111,10 +111,23 @@ FORCE=TRUE;
 
 ## Step 5: Install the Plug-In
 
-1.  Download **`cortexanalyst.zip`**.
-2.  Follow the [Moodle Plugin Installation Guide](#) to install it.
+1.  Zip the folder named **`cortexanalyst.zip`**.
+2.  Follow the [Moodle Plugin Installation Guide](../../../moodle-local-setup/) to install it.
 3.  During installation, add your **Snowflake hostname**.
-
+4.  Once Moodle installed and running, copy this plugin(**`cortexanalyst.zip`**.) to the below mentioned path depending on your system
+* **Windows (using a server stack like XAMPP):**
+    ```
+    C:\xampp\htdocs\<your_moodle_folder>\local\
+    ```
+* **macOS (using a server stack like MAMP):**
+    ```
+    /Applications/MAMP/htdocs/<your_moodle_folder>/local/
+    ```
+* **Linux (typical Apache setup):**
+    ```
+    /var/www/html/<your_moodle_folder>/local/
+    ```
+5. Moodle will auto detect the plugin and ask if you wish to install it
 ------------------------------------------------------------------------
 
 ## Step 6: Access the Plug-In

@@ -1,0 +1,56 @@
+0.5 Pull images
+
+docker pull bitnamilegacy/moodle:5.0 --platform linux/amd64
+docker pull bitnami/postgresql --platform linux/amd64
+
+1. configure your .toml file
+	https://app.dataops.live/snowflake/solutions/marketing-data-foundation-starter-v-3-spcs/-/blob/main/dataops/pipelines/includes/local_includes/get_native_app.yml
+
+in pre-sole
+2. In Snowflake create a role (I have created one called MOODLE_ROLE)
+
+CREATE ROLE MOODLE_ROLE;
+GRANT ROLE ACCOUNTADMIN TO ROLE MOODLE_ROLE;
+GRANT ROLE MOODLE_ROLE TO USER AMITCHELL {{}} (this will be template supplied user);
+
+3. Change the makefile to reflect your connection name and role name (use default so no connection needed) - done
+4. In the directory with the makefile on the command line you can now execute
+
+make all
+
+5.  Once that finishes execute 
+
+make cpool -- mnove that into make all as well
+
+6.  Now go to Snowflake and create a stage 
+
+CREATE STAGE MOODLE_APP.PUBLIC.MOUNTED;
+snow stage create --name XXX OR in the Pre-sole
+
+7.  You can now create your service
+
+make serv -- move to post sole OR into the make all
+
+8.  Back over to Snowflake.
+9.  Check containers in service
+
+SHOW SERVICE CONTAINERS IN SERVICE moodle_service;
+
+You want status = READY and message = RUNNING and restart_count = 0
+
+10.  Grab your service endpoint
+
+SHOW ENDPOINTS IN SERVICE MOODLE_SERVICE;
+
+11.  Now enable endpoints for the service
+
+GRANT SERVICE ROLE moodle_service!ALL_ENDPOINTS_USAGE TO ROLE MOODLE_ROLE; -- into post sole
+
+12.  Paste endpoint from earlier into a browser
+13.  You will need to login
+14.  You should be looking at Moodle.
+
+https://app.dataops.live/snowflake/hands-on-labs/arch-hackathon/-/tree/main/
+
+
+

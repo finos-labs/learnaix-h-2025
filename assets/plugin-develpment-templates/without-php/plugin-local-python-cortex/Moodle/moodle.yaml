@@ -1,0 +1,66 @@
+spec:
+  containers:
+  - name: postgresql
+    image: /moodle_app/public/img/bitnami/postgresql:17.5.0
+    volumeMounts:
+    - name: postgresqldata
+      mountPath: /bitnami/postgresql
+    env: 
+      ALLOW_EMPTY_PASSWORD: yes
+      POSTGRESQL_DATABASE: moodle
+      POSTGRESQL_USERNAME: postgres
+      POSTGRESQL_POSTGRES_PASSWORD: abc123
+
+  - name: moodle
+    image: /moodle_app/public/img/bitnami/moodle:5.0
+    volumeMounts:
+    - name: moodledata
+      mountPath: /moodle
+    - name: moodledatadata
+      mountPath: /moodledata
+    env: 
+      MOODLE_DATABASE_TYPE: pgsql
+      MOODLE_DATABASE_HOST: 127.0.0.1
+      MOODLE_DATABASE_PORT_NUMBER: 5432
+      MOODLE_DATABASE_NAME: moodle
+      MOODLE_DATABASE_USER: postgres
+      MOODLE_DATABASE_PASSWORD: abc123
+      MOODLE_USERNAME: user
+      MOODLE_PASSWORD: bitnami
+
+  - name: flask-app
+    image: /moodle_app/public/img/flask-hello-world:latest
+    volumeMounts:
+    - name: pythonscripts
+      mountPath: /app/python
+    env: 
+      FLASK_APP: app.py
+      FLASK_RUN_HOST: 0.0.0.0
+      FLASK_RUN_PORT: 5000
+      PYTHON_FILES_PATH: /app/python
+
+  endpoints:
+    - name: moodle-ui
+      port: 8080
+      public: true
+    - name: flask-ui
+      port: 5000
+      public: true    
+  volumes:
+  - name: moodledata
+    source: "@mounted"
+    uid: 1001
+    gid: 0
+  - name: moodledatadata
+    source: "@mounted"
+    uid: 1001
+    gid: 0
+  - name: pythonscripts
+    source: "@mounted"
+    uid: 1001
+    gid: 0
+  - name: postgresqldata
+    source: local
+  logExporters:
+    eventTableConfig:
+      logLevel: INFO    

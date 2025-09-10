@@ -16,13 +16,12 @@ DROP compute pool moodle_compute_pool;
 DROP IMAGE REPOSITORy MOODLE_APP.PUBLIC.IMG;
 ```
 
-## Download and unzip moodle.zip and open a terminal and navigate to the directory with the files.
+## Open a terminal and navigate to the directory [Moodle](./Moodle/).
 
 ![Screenshot](./instruction_images/image2.png)
 
-Follow the walk_through.txt located in cortex.zip. If you have previously had a moodle instance running, start from step 4 in walk_through.txt (the make all step)
 
-## Download the data files in this folder: Data Files
+## Use the data files in this folder: Data Files
 
 Ensure that you have the “moodle_role” role selected
 
@@ -200,7 +199,7 @@ ON_ERROR=CONTINUE
 FORCE = TRUE ;
 ```
 
-## Download cortex.zip and navigate to the “Site Administration” tab on the top left on your moodle instance.
+## Open directory [cortex](./cortex/), zip the content of this folder as *** cortex.zip *** and navigate to the “Site Administration” tab on the top left on your moodle instance.
 
 ![Screenshot](./instruction_images/image8.png)
 
