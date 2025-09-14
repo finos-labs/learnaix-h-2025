@@ -38,7 +38,7 @@ Hosting: Snowflake
 
 ## How to get started with Plugin Development
 
-- Clone the repo
+- Open the provided repo
 - Navigate to `assets` folder
 - ### Step 1: Choose your runtime
 
@@ -46,7 +46,7 @@ Hosting: Snowflake
 
 ##### Option 1: Run Plugin on Snowflake
 
-- No need to install Moddodle
+- No need to install Moodle
 - you can run the plugin directly inside your Snowflake environment.
 - _Note:_ If you only want to use Snowflake, you can _skip the local setup steps_ below.
 
