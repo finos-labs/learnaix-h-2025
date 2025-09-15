@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<psalm
+  totallyTyped="true"
+  errorLevel="1"
+  phpVersion="8.0"
+  resolveFromConfigFile="true"
+>
+  <projectFiles>
+    <directory name="."/>
+    <ignoreFiles>
+      <directory name="vendor" />
+    </ignoreFiles>
+  </projectFiles>
+</psalm>
